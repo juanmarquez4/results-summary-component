@@ -1,0 +1,55 @@
+body {
+    background-color: hsl(221, 100%, 96%) ;
+}
+
+.center {
+    text-align: center;
+}
+.container {
+    background-color: hsl(0, 0%, 100%) ;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    
+}
+
+.left-card {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    }
+
+.right-card {
+    width: 50%;
+    padding: 10px;
+   
+}
+
+.light-red {
+color: hsl(0, 100%, 67%);
+display: flex;
+}
+
+.orange-yellow{
+color: hsl(39, 100%, 56%);
+display: flex;
+}
+
+.green-teal{
+color:  hsl(166, 100%, 37%);
+display: flex;
+}
+
+.cobalt-blue{
+color: hsl(234, 85%, 45%);
+display: flex;
+}
+
+    
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
